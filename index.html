@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initail-scale=1.0">
+        <title>Anil Kumar portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/00989ce72c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/OIP-Photoroom.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Java Developer</p>
+            <h1>Hi, I'm <span>Anil Kumar</span> <br> from Hyderabad</h1>
+        </div>
+    </div>
+   </div> 
+   <!-----------------about---------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/Anil-Photoroom.png">
+        </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+
+                    "My name is Anil Kumar Tellamekala, and I have recently completed my Bachelor of Technology in Electronics and Communication Engineering with a CGPA of 7.2. I am an ambitious individual with a clear vision and strong determination to achieve my goals. My passion for technology, particularly in software development, led me to pursue a Java Full Stack Development course in Hyderabad. I have gained hands-on experience in Java and its frameworks, successfully developing projects such as an Employee Management System and a Banking Application integrated with MySQL, along with other smaller projects. Additionally, I have completed internships in Cybersecurity Awareness and Machine Learning during my B.Tech, which broadened my technical expertise. With my strong problem-solving skills, eagerness to learn, and commitment to excellence, I am driven to build a successful career as a Java Developer."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('Eduaction')">Eduaction</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JavaDeveloper</span><br> developing Web/app Applications</li>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                            <li><span>Software Development</span><br> developing moblie Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br> developing and working some project and searching for jobs</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Eduaction">
+                        <ul>
+                           
+                            <li><span>2020-2024</span><br>BTech in QIS College of Engineering and Technology</li>
+                            <li><span>2018-2020</span><br>intermidate at NRI Junior College</li>
+                            <li><span>2017-2018</span><br>SSC at BASARA Concept School</li>
+                            
+                        </ul>
+                    </div>
+
+            </div>
+            
+        </div>
+    </div>
+   </div>  
+<!-----------------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development using ReactJS and MySQL is a combination for building modern, dynamic applications. ReactJS, a popular JavaScript library, is used for creating highly interactive and responsive user interfaces, making it ideal for delivering seamless user experiences. On the backend, MySQL, a reliable and widely-used relational database, is employed to store and manage application data efficiently. Together, this stack allows developers to build scalable web applications by connecting the ReactJS frontend to a backend API (built using technologies like Node.js, Spring Boot, or Django) that interacts with the MySQL database. This setup ensures a clean separation of concerns, fast performance, and robust data handling.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h2>Software Development</h2>
+                <p>Mobile application development involves creating software applications designed to run on mobile devices, such as smartphones and tablets. Developers often use tools and frameworks like React Native for cross-platform development, enabling apps to run seamlessly on both Android and iOS devices. For native development,Java is commonly used for Android, while Swift or Objective-C is used for iOS. Mobile apps can integrate features like push notifications, camera access, and GPS functionality, and they often connect to cloud-based services or databases, such as Firebase or MySQL, for real-time data synchronization. The focus is on creating responsive, user-friendly, and secure applications tailored to specific business or user needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Developer</h2>
+                <p>As a Java developer, you can excel in mobile application development, especially for Android platforms. Java has been a foundational language for Android app development, enabling the creation of robust, scalable, and feature-rich mobile apps. Using tools like Android Studio and frameworks such as JavaFX, Java developers can design intuitive user interfaces, handle complex business logic, and integrate essential features like APIs, databases (e.g., SQLite or MySQL), and cloud services. Java's versatility and extensive library ecosystem allow developers to build apps ranging from simple utilities to complex enterprise-level solutions while ensuring high performance and reliability.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio------------>
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/images (1).jpeg" >
+                <div class="layer">
+                    <h3>Banking Application  Using Java </h3>
+                    <p>
+                        Banking Application intraction with MySQL to store data of every applicant and creating an account ,depositing ,withdraw all done by using java technology , JDBC and MySQL.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/images (5).jpeg" >
+                <div class="layer">
+                    <h3>Employee Management System </h3>
+                    <p>
+                        This is a full-stack Employee Management System (EMS) built using React JS (Vite) for the frontend and Spring Boot for the backend. It allows users to manage employee data, including adding new employees, updating existing information, deleting employees, and viewing a list of all employees.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/77U5V2VG.webp" >
+                <div class="layer">
+                    <h3>java Developer</h3>
+                    <p>
+                        A Java Developer is a programmer who designs, develops, and manages Java-based applications and software. With most large organizations using Java to implement software systems and backend services, a Java developer is one of the most sought-after jobs today. 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------Contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                   Contact Me 
+                </h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i>tellamekalaanilkumar4@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>9381040194</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="C:\Users\tella\OneDrive\Desktop\personal portfolio\images\Anil Kumar.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <center>
+    <div class="copyright">
+       <p>copyright <i class="fa-solid fa-copyright"></i>Anil.Made with by Easy source</p> 
+    </div>
+</center>
+</div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+         var sidemenu=document.getElementById("sidemenu");
+         function openmenu(){
+            sidemenu.style.right="0";
+         }
+         function closemenu(){
+            sidemenu.style.right ="-200px";
+         }
+   </script>
+       
+    </body>
+</html>
